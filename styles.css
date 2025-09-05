@@ -10,7 +10,7 @@ body, html {
 
 /* Hero Section */
 .hero {
-  background-image: url('https://via.placeholder.com/1500x1000'); /* Replace with actual image */
+  background-image: url; url(img/charity water 5.jpg)/* Replace with actual image */
   background-size: cover;
   background-position: center;
   height: 100vh;

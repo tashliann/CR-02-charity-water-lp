@@ -10,10 +10,19 @@ body, html {
 
 /* Hero Section */
 .hero {
-  background-image: url; url(img/charity water 5.jpg)/* Replace with actual image */
+  background-image: url('img/charity water 5.jpg'); /* Replace with actual image */
   background-size: cover;
   background-position: center;
   height: 100vh;
+/* Set the background image for the whole page */
+body {
+  background-image: url('img/charity water 5.jpg'); /* Sets the background image */
+  background-size: cover; /* Makes the image cover the whole background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Makes the body take full height of the screen */
+  color: white; /* Sets text color to white for better contrast */
+}
   position: relative;
   color: white;
 }

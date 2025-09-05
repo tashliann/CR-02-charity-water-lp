@@ -93,6 +93,19 @@ body {
 .action-btn {
   background-color: black;
   color: white;
+  font-size: 1.5em; /* Makes the button text larger */
+  padding: 20px 40px; /* Makes the button itself larger */
+  animation: moveButton 1s infinite alternate; /* Adds movement animation */
+}
+
+/* Animation for moving the button left and right */
+@keyframes moveButton {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(30px);
+  }
 }
 
 .donate-btn {
